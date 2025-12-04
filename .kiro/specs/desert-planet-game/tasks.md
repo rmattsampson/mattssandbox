@@ -1,19 +1,19 @@
 # Implementation Plan
 
-- [ ] 1. Set up project structure and dependencies
+- [x] 1. Set up project structure and dependencies
   - Create Python backend directory structure with Flask/FastAPI
   - Create frontend directory with HTML/CSS/JS files
   - Set up pytest and Hypothesis for testing
   - Create requirements.txt with dependencies
   - _Requirements: 8.1_
 
-- [ ] 2. Implement core data models and validation
-  - [ ] 2.1 Create GameState, Player, World, NPC, and WorkTask data classes
+- [-] 2. Implement core data models and validation
+  - [x] 2.1 Create GameState, Player, World, NPC, and WorkTask data classes
     - Define Python dataclasses or Pydantic models for all game entities
     - Implement JSON serialization methods
     - _Requirements: 5.1, 5.2_
   
-  - [ ]* 2.2 Write property test for save/load round-trip
+  - [-] 2.show m2 Write property test for save/load round-trip
     - **Property 13: Save and load preserves game state**
     - **Validates: Requirements 5.1, 5.2**
   

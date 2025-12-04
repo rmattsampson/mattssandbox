@@ -1,0 +1,13 @@
+# Web Framework
+Flask==3.0.0
+Flask-CORS==4.0.0
+
+# Testing
+pytest==7.4.3
+hypothesis==6.92.1
+
+# Data validation
+pydantic==2.5.2
+
+# Utilities
+python-dotenv==1.0.0
